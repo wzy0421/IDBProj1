@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.5.0_51-b10 (Sun Microsystems Inc.)
+Implementation-Vendor: Oracle Corporation
+Implementation-Title: JDBC debug
+Implementation-Version: 11.2.0.3.0
+Repository-Id: JAVAVM_11.2.0.4.0_LINUX.X64_130711
+Specification-Vendor: Sun Microsystems Inc.
+Specification-Title: JDBC
+Specification-Version: 4.0
+Main-Class: oracle.jdbc.OracleDriver
+sealed: false
+
+Name: oracle/sql/converter/
+Sealed: false
+
+Name: oracle/sql/
+Sealed: false
+
+Name: oracle/sql/converter_xcharset/
+Sealed: false
+
+Name: oracle/replay/driver/
+Sealed: false
+

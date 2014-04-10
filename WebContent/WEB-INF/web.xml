@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<display-name>OracleServlet</display-name>
+		<servlet-name>OracleServlet</servlet-name>
+		<servlet-class>servlet.OracleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>MainServlet</display-name>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>servlet.MainServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>CreateServlet</display-name>
+		<servlet-name>CreateServlet</servlet-name>
+		<servlet-class>servlet.CreateServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>VoteServlet</display-name>
+		<servlet-name>VoteServlet</servlet-name>
+		<servlet-class>servlet.VoteServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>VoteResultServlet</display-name>
+		<servlet-name>VoteResultServlet</servlet-name>
+		<servlet-class>servlet.VoteResultServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>DecideServlet</display-name>
+		<servlet-name>DecideServlet</servlet-name>
+		<servlet-class>servlet.DecideServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>DecideResultServlet</display-name>
+		<servlet-name>DecideResultServlet</servlet-name>
+		<servlet-class>servlet.DecideResultServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DecideResultServlet</servlet-name>
+		<url-pattern>/decideresult</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DecideServlet</servlet-name>
+		<url-pattern>/decide</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VoteResultServlet</servlet-name>
+		<url-pattern>/voteresult</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OracleServlet</servlet-name>
+		<url-pattern>/oracle</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/main</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreateServlet</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VoteServlet</servlet-name>
+		<url-pattern>/vote</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
